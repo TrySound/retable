@@ -1,0 +1,33 @@
+.retable-sm,
+.retable-md,
+.retable-lg {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.retable-sm + .retable-container {
+		display: none;
+	}
+	.retable-sm {
+		display: table;
+	}
+}
+
+@media (min-width: 992px) {
+	.retable-md + .retable-container {
+		display: none;
+	}
+	.retable-md {
+		display: table;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.retable-lg + .retable-container {
+		display: none;
+	}
+	.retable-lg {
+		display: table;
+	}
+}
