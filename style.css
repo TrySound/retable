@@ -1,7 +1,47 @@
-body {
+.wrapper {
+	position: relative;
+	overflow: hidden;
 	padding: 15px;
-	overflow-y: scroll;
+	color: #555;
 }
+
+.ribbon {
+	background-color: #E3F2FD;
+	overflow: hidden;
+	white-space: nowrap;
+	position: absolute;
+	right: -50px;
+	top: 40px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+@-webkit-keyframes pulse {
+	50% {box-shadow: 0 0 10px rgba(0, 0, 0, .2);}
+}
+
+@keyframes pulse {
+	50% {box-shadow: 0 0 10px rgba(0, 0, 0, .2);}
+}
+
+.ribbon:hover {
+	-webkit-animation: pulse .5s infinite;
+	animation: pulse .5s infinite;
+}
+
+.ribbon a {
+	border: 1px solid #2196F3;
+	color: #2196F3;
+	display: block;
+	font: bold .875em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 1px 0;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
 
 .icon-plus {
 	display: inline-block;
