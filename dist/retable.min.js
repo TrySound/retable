@@ -1,5 +1,5 @@
 /*!
- * retable 0.0.2
+ * retable 0.0.3
  * Transform table for mobile
  * https://github.com/TrySound/retable
  * 

@@ -1,6 +1,6 @@
 {
   "name": "retable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transform table for mobile",
   "main": "gulpfile.js",
   "scripts": {
