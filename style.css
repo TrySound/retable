@@ -63,16 +63,6 @@
 	clear: both;
 }
 
-.retable-table {
-	float: left;
-	width: 32%;
-	margin-right: 2%;
-}
-
-.retable-table:nth-of-type(3n) {
-	margin-right: 0;
-}
-
 table {
 	margin-bottom: 30px;
 }
@@ -100,3 +90,21 @@ caption,
 	font-weight: normal;
 	font-size: 1.125em;
 }
+
+a {
+	color: #2196F3;
+	font-size: 1.125em;
+}
+
+@media (min-width: 768px) {
+	.examples .retable-table {
+		float: left;
+		width: 32%;
+		margin-right: 2%;
+	}
+
+	.examples .retable-table:nth-of-type(3n) {
+		margin-right: 0;
+	}
+}
+
