@@ -24,14 +24,14 @@ retable(selector, options);
 
 ## Options
 
-`options.type` - `row`, `column`, `separator`
-`options.caption` - mod
+- `options.type` - `row`, `column`, `separator`
+- `options.caption` - mod
 
 ##Adaptive Helpers
 
-`.retable-sm` - desktop at 768px
-`.retable-md` - desktop at 992px
-`.retable-lg` - desktop at 1200px
+- `.retable-sm` - desktop at 768px
+- `.retable-md` - desktop at 992px
+- `.retable-lg` - desktop at 1200px
 
 
 ## License
