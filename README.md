@@ -1,7 +1,7 @@
 # retable
 Transform table for mobile
 
-##Usage
+## Usage
 
 ```html
 <table class="retable" data-retable-type="row">
@@ -22,13 +22,19 @@ or
 retable(selector, options);
 ```
 
-##Options
+## Options
 
 `options.type` - `row`, `column`, `separator`
 `options.caption` - mod
 
+##Adaptive Helpers
 
-##License
+`.retable-sm` - desktop at 768px
+`.retable-md` - desktop at 992px
+`.retable-lg` - desktop at 1200px
+
+
+## License
 
 [The MIT License (MIT)](LICENSE)
 

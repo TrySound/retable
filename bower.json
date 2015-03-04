@@ -5,7 +5,10 @@
     "Bogdan Chadkin <trysound@yandex.ru>"
   ],
   "description": "Transform table for mobile",
-  "main": "dist/retable.js",
+  "main": [
+    "dist/retable.js",
+    "dist/retable.css"
+  ],
   "moduleType": [
     "globals"
   ],
