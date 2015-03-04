@@ -1,0 +1,25 @@
+{
+  "name": "retable",
+  "homepage": "https://github.com/TrySound/retable",
+  "authors": [
+    "Bogdan Chadkin <trysound@yandex.ru>"
+  ],
+  "description": "Transform table for mobile",
+  "main": "dist/retable.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "table",
+    "responsive",
+    "stacktable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

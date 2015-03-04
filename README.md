@@ -19,8 +19,17 @@ Transform table for mobile
 or
 
 ```js
-retable(selector, type);
+retable(selector, options);
 ```
 
-Type is one of the `['row', 'column', 'separator']`
+##Options
 
+`options.type` - `row`, `column`, `separator`
+`options.caption` - mod
+
+
+##License
+
+[The MIT License (MIT)](LICENSE)
+
+Copyright &copy; 2015 Bogdan Chadkin

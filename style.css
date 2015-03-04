@@ -74,7 +74,6 @@
 }
 
 table {
-	width: 100%;
 	margin-bottom: 30px;
 }
 
@@ -95,5 +94,9 @@ caption,
 	padding: 10px;
 	font-weight: bold;
 	font-size: 1.25em;
-	text-align: center;
+}
+
+.retable-table caption {
+	font-weight: normal;
+	font-size: 1.125em;
 }
