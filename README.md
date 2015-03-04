@@ -24,7 +24,7 @@ retable(selector, options);
 
 ## Options
 
-- `options.type` - `row`, `column`, `separator`
+- `options.type` - row, column, separator
 - `options.caption` - mod
 
 ##Adaptive Helpers
