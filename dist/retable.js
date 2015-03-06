@@ -7,7 +7,7 @@
  * Copyright (c) 2015, Bogdan Chadkin <trysound@yandex.ru>
  */
 
-(function (window, document) {
+;(function (window, document) {
 
 
 var PLUGIN_NAME = 'retable';

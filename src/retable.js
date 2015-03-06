@@ -1,4 +1,4 @@
-(function (window, document) {
+;(function (window, document) {
 
 
 var PLUGIN_NAME = 'retable';
